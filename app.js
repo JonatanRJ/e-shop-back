@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const { keepAlive } = require('./db/query');
-port = 3000 || process.env.PORT;
+port = process.env.PORT || 3000;
 
 
 //DB
